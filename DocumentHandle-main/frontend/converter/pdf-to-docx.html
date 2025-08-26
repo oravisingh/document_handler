@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF to DOCX Converter</title>
+  <!-- Link to your existing CSS stylesheet -->
+  <link rel="stylesheet" href="../styles.css">
+  
+</head>
+<body>
+  <div class="page-transition">
+
+  <h1>PDF to DOCX Converter</h1>
+
+  <!-- Drop zone for drag and drop/click-to-select -->
+  <div id="dropArea" class="drop-area">
+    Drag &amp; drop your PDF here or click to select
+    <input type="file" id="fileInput" accept="application/pdf" hidden>
+  </div>
+
+  <!-- Preview section -->
+  <div id="preview"></div>
+
+  <!-- Status message -->
+  <div id="status"></div>
+
+  <!-- Download button -->
+  <button id="downloadBtn">Download DOCX</button>
+
+  <!-- Include the JavaScript file -->
+  <script src="../scripts/pdfToDocx.js"></script>
+
+</div>
+</body>
+</html>
