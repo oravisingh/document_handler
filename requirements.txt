@@ -6,3 +6,5 @@ python-docx
 PyPDF2
 pdf2image
 waitress
+pdf2docx
+
