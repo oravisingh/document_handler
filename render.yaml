@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: document-handle
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.16
+      - key: RENDER
+        value: true 
