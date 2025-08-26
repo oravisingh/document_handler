@@ -1,8 +1,0 @@
-Flask
-Flask-Cors
-Werkzeug
-Pillow
-python-docx
-PyPDF2
-pdf2image
-waitress
