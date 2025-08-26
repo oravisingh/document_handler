@@ -164,6 +164,10 @@ def convert_pdf_to_docx():
 def index():
     return send_from_directory('frontend', 'index.html')
 
+@app.route('/static/<path:path>')
+def serve_static(path):
+    return send_from_directory('static', path)
+
 @app.route('/<path:path>')
 def serve_frontend(path):
     return send_from_directory('frontend', path)
